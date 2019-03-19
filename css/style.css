@@ -1,24 +1,25 @@
-body {
-    width: 100%;
-    font-size: 14px;
+li {
+    display: inline;
+}
+footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: white;
+     color: black;
+     text-align: center;
+ }
+#cos{
+    padding: 5px 50px;
 }
 
-.container {
-    margin-top: 50px;
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
 }
-
-.list-group-item {
-    cursor: pointer;
-}
-
-.correct {
-    background-color: #289a27;
-}
-
-.incorrect {
-    background-color: #c41a21;
-}
-
-.buttons {
-    padding: 10px 10px 10px 0;
+html {
+    scroll-behavior: smooth;
 }
